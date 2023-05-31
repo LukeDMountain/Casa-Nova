@@ -16,7 +16,7 @@ h1{
 }
 
 .Lucamom{
-    background-color: #fff1d0;
+    background-color: #faf2e0;
 }
 
 .btn:link,
@@ -91,3 +91,66 @@ h1{
   .input-group:hover .label, .input:focus {
     color: #05060fc2;
   }
+  ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+ul.menu li {
+    float: left;
+}
+
+ul.menu li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    background-color: #ddd;
+}
+
+.centralizado {
+  background-color: beige;
+  padding: 20px;
+  margin: 0;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center; 
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+  
+}
